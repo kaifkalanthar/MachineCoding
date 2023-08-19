@@ -22,6 +22,17 @@ const HomeSection = () => {
           <h1 className="text-5xl bg-secondary p-4">Progress bar</h1>
         </Link>
       </motion.div>
+      <motion.div
+        animate={{ x: 100 }}
+        transition={{ ease: "easeOut", duration: 0.5 }}
+        className="rounded-md w-fit mx-auto my-4"
+      >
+        <Link to="/pagination-query">
+          <h1 className="text-5xl bg-secondary p-4">
+            Pagination using react query
+          </h1>
+        </Link>
+      </motion.div>
     </div>
   );
 };

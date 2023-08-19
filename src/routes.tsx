@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Pagination from "./components/Pagination";
 import HomePage from "./pages/HomePage";
 import ProgressBar from "./components/ProgressBar";
+import QueryPagination from "./components/QueryPagination";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       { path: "pagination", element: <Pagination /> },
       { path: "progress-bar", element: <ProgressBar /> },
+      { path: "pagination-query", element: <QueryPagination /> },
     ],
   },
 ]);

@@ -12,6 +12,7 @@ export default {
       primary: "#9AC5F4",
       blue: "#00ffff",
       white: "#fff",
+      gray: "#444444",
     },
   },
   plugins: [],
